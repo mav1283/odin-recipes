@@ -1,0 +1,12 @@
+{
+  "name": "odin-recipes",
+  "version": "1.0.0",
+  "description": "First project",
+  "main": "index.js",
+  "repository": "git@github.com:mav1283/odin-recipes.git",
+  "author": "mav1283 <pdullano@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.43.4"
+  }
+}

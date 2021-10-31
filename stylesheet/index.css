@@ -1,0 +1,46 @@
+:root {
+  --primaryColor: #338800;
+  --secondaryColor: #33bb00;
+  --whiteLight: #ffffff;
+  --darkGrey: #333333;
+}
+
+body,
+body * {
+  margin: unset;
+  -webkit-box-sizing: unset;
+          box-sizing: unset;
+  padding: unset;
+  color: unset;
+  text-decoration: unset;
+}
+
+body {
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.025rem;
+}
+
+.layout {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto 1fr auto;
+      grid-template-rows: auto 1fr auto;
+}
+
+.appHeader {
+  background: var(--primaryColor);
+  color: var(--whiteLight);
+}
+
+.mainContent {
+  background: var(--whiteLight);
+}
+
+.appFooter {
+  text-align: center;
+  font-size: small;
+}
+/*# sourceMappingURL=index.css.map */

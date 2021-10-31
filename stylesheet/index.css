@@ -24,6 +24,7 @@ body {
 }
 
 .layout {
+  height: inherit;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: auto 1fr auto;
